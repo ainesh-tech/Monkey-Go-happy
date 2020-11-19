@@ -39,7 +39,7 @@ function setup() {
 function Banas() {
   if (frameCount % 140 === 0) {
 
-    banana = createSprite(600,random(120,200), 30, 40);
+    banana = createSprite(600,random(300,400), 30, 40);
     banana.addImage(bananaImage);
     banana.scale = 0.1;
     banana.velocityX = -4;
